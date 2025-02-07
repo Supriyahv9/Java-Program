@@ -5,9 +5,9 @@ public class Second_Largest {
 		int max=a[0];
 		int smax=a[0];
 		for(int i=1;i<a.length;i++) {
-			if(a[i]>max) {//
-				smax=max;//smax=
-				max=a[i];//max=
+			if(a[i]>max) {
+				smax=max;
+				max=a[i];
 			}else if(smax<a[i] && a[i]!=max) {
 				smax=a[i];
 			}
