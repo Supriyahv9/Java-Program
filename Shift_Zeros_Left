@@ -1,0 +1,19 @@
+public class Shift_Zeros_Left {
+	
+	public static void main(String[] args) {
+		
+	
+	
+	int[] a={1,2,3,0,3,0,4,3,2,1,0};
+	int[] array= new int[a.length];
+	int last=a.length-1;
+	for(int i=a.length-1;i>0;i--) {
+		if(a[i]!=0) {
+			array[last--]=a[i];
+		}
+	}
+	
+	System.out.println(Arrays.toString(array));
+
+}
+}
