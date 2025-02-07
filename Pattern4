@@ -1,0 +1,21 @@
+public class Pattern4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int rownum=3;
+		int colnum=3;
+		for(int i=1;i<=rownum;i++) {
+			for(int j=1;j<=colnum;j++) {
+				if(i+j<=4) {
+					System.out.print("*");
+				}else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+
+	}
+
+}
